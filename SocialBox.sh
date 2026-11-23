@@ -178,7 +178,7 @@ sleep 0.025
         echo -e "	[+]$red Service Tor Started $nc[+]"
 sleep 0.9
 sv tor start
-python2 fikrado.py
+python fikrado.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 sv tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
